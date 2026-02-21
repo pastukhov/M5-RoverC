@@ -11,6 +11,9 @@
     "url": "https://github.com/m5stack/M5-RoverC.git"
   },
   "version": "0.0.1",
-  "frameworks": "arduino",
+  "frameworks": [
+    "arduino",
+    "espidf"
+  ],
   "platforms": "espressif32"
 }
